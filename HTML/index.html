@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Newsreader">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Food & Drinks Blogger</title>
+</head>
+
+<body>
+    <!-- [START] Navigation bar -->
+    <nav>
+        <a href="index.html"><img src="../images/logo.jpg"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="best restaurants.html">Best Restaurants</a></li>
+        </ul>
+    </nav>
+    <!-- [END] Navigation bar -->
+    <!-- [START] Hero section -->
+    <section id="hero-section">
+        <div class="content-wrapper">
+            <h6>Food, drinks & restaurants reviews</h6>
+            <h1>Join our list 100,000+ Subscribers & stay updated!</h1>
+            <input type="email" id="email" name="email" placeholder="Enter a valid email address..">
+            <input type="submit" id="submit" value="Subscribe now" onclick="clearEmailInput()">
+        </div>
+    </section>
+    <!-- [END] Hero section -->
+    <!-- [START] Section 1 -->
+    <h6 id="section1-h6">Most recent blog posts</h6>
+    <section class="section" id="section1">
+        <div class="content-wrapper">
+            <img src="../images/beef vegetables.jpg">
+            <a href="#">
+                <p>Herb Crusted Steak & Vegetables</p>
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna
+                aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <div class="content-wrapper">
+            <img src="../images/party cocktails.jpg">
+            <a href="#">
+                <p>10 Festive Drinks to Party With</p>
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna
+                aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <div class="content-wrapper">
+            <img src="../images/fruit salad.jpg">
+            <a href="#">
+                <p>Honey Lime Fruit Salad</p>
+            </a>
+            <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore
+                magna
+                aliqua. Ut enim ad minim veniam.</p>
+        </div>
+    </section>
+    <!-- [END] Section 1 -->
+    <!-- [START] Section 2 -->
+    <h6 id="section2-h6">Top rated restaurants to visit</h6>
+    <section class="section" id="section2">
+        <div class="content-wrapper">
+            <div class="image-overlay"></div>
+            <img src="../images/restaurant 1.jpg">
+            <div class="text-overlay">
+                <a href="#">
+                    <p id="first-restaurant">Savory Spoon Restaurant</p>
+                    <p class="date">June 18, 2023</p>
+                </a>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="image-overlay"></div>
+            <img src="../images/restaurant 2.jpg">
+            <div class="text-overlay">
+                <a href="#">
+                    <p>Urban Plates Brasserie</p>
+                    <p class="date">November 7, 2021</p>
+                </a>
+            </div>
+        </div>
+        <div class="content-wrapper">
+            <div class="image-overlay"></div>
+            <img src="../images/restaurant 3.jpg">
+            <div class="text-overlay">
+                <a href="#">
+                    <p>Gourmet Grove Eatery</p>
+                    <p class="date">March 25, 2022</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- [END] Section 2 -->
+    <!-- [START] Section 3 -->
+    <h6 id="section3-h6">Recommended review vlogs</h6>
+    <section class="section" id="section3">
+        <div class="video-wrapper">
+            <video width="385" height="250" poster="../images/shrimp pasta.jpg" controls>
+                <source src="../images/video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-wrapper">
+            <video width="385" height="250" poster="../images/cinammon rolls.jpg" controls>
+                <source src="../images/video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="video-wrapper">
+            <video width="385" height="250" poster="../images/pizza.jpg" controls>
+                <source src="../images/video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <!-- [END] Section 3 -->
+    <!-- [START] Section 4 -->
+    <section class="section" id="section4">
+        <h6>Are you a restaurant owner?</h6>
+        <h2>Reach out to John Doe for a meaningful<br>review for your restaurant.</h2>
+        <button type="button">Get in touch</button>
+    </section>
+    <!-- [END] Section 4 -->
+    <!-- [START] Footer -->
+    <footer>
+        <img src="../images/black logo.jpg">
+        <div id="social-media-icons">
+            <a href="#"><i class="fab fa-facebook" style="color: white;"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="color: white;"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color: white;"></i></a>
+            <a href="#"><i class="fab fa-youtube" style="color: white;"></i></a>
+        </div>
+        <p>Copyright &copy; 2023 John Doe - Food & Drinks Blogger</p>
+    </footer>
+    <!-- [END] Footer -->
+    <script src="../script.js"></script>
+</body>
+
+</html>
